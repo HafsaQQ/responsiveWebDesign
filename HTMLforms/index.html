@@ -31,11 +31,11 @@
       </fieldset>
     <fieldset>
         <!-- the input type file allows a user to upload a profile picture -->
-        <label for="profile-picture">Upload a profile picture: <input id="profile-picture" type="file" /></label>
-        <label for="age">Input your age (years): <input id="age" type="number" min="13" max="120" /></label>
+        <label for="profile-picture">Upload a profile picture: <input name="profile-picture" id="profile-picture" type="file"/></label>        
+        <label for="age">Input your age (years): <input name="age" id="age" type="number" min="13" max="120" /></label>        
         <!-- Adding a dropdown to the form is easy with the select element. The select element is a container for a group of option elements, and the option element acts as a label for each dropdown option. Both elements require closing tags. -->
         <label for="referrer">How did you hear about us?
-          <select id="referrer">
+        <select name="referrer" id="referrer" name="referrer">
             <option value="">(select one)</option>
             <option value="1">freeCodeCamp News</option>
             <option value="2">freeCodeCamp YouTube Channel</option>
@@ -44,7 +44,7 @@
           </select>
         </label>
         <label for="bio">Provide a bio:
-            <textarea id="bio" rows="3" cols="30" placeholder="I like coding on the beach...."></textarea>
+            <textarea id ="bio" rows="3" cols="30" placeholder="I like coding on the beach..." name="bio"></textarea>        
         </label>
       </fieldset>
     <input type="submit" value="Submit">
