@@ -65,3 +65,6 @@ fieldset{
 form{
   display:center;
 }
+input[type="file"]{
+    padding: 1px 2px;
+  }
