@@ -30,3 +30,7 @@ fieldset{
     padding-right:0;
     border-bottom: 3px solid rgb(59, 59, 79);
   }
+  /* The border of the last fieldset element looks a little out of place. You can select the last element of a specific type using the last-of-type CSS pseudo-class */
+  fieldset:last-of-type{
+    border-bottom:none;
+  }
