@@ -19,3 +19,8 @@
     margin: -4px 0;
     letter-spacing: 0.15px
   }
+  p {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+  }
